@@ -1,5 +1,6 @@
 <?php
 $pyramidStepNum = filter_input(INPUT_POST, 'peopleNum');
+$pyramidStepNum += 7;
 $peopleNum = 0;
 for ($i = 1; $i <= $pyramidStepNum; $i++) {
     $peopleNum += $i;
